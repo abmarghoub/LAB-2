@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ImpotsLocaux</string>
+    <string name="title">Calcul des impôts locaux</string>
+    <string name="nom_label">Nom</string>
+    <string name="nom_hint">Entrez votre nom</string>
+    <string name="adresse_label">Adresse</string>
+    <string name="adresse_hint">Entrez votre adresse</string>
+    <string name="surface_label">Surface (m²)</string>
+    <string name="surface_hint">Entrez la surface</string>
+    <string name="pieces_label">Nombre de pièces</string>
+    <string name="pieces_hint">Entrez le nombre de pièces</string>
+    <string name="piscine">Piscine</string>
+    <string name="button_calculer">Calculer</string>
+</resources>
