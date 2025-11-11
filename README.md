@@ -1,5 +1,24 @@
 # LAB 2 – Calculateur d’impôts locaux : Saisie, traitement et affichage
 
+---
+### Réalisé par
+
+**Abla MARGHOUB**
+
+### Encadré par
+
+**Pr. Mohamed LACHGAR**
+
+### Module
+
+**Techniques de Programmation Avancée**
+
+### Établissement
+
+**École Normale Supérieure - Université Cadi Ayyad**
+
+---
+
 
 ## 1. Objectif du TP
 Développer un interface Android permettant de calculer le montant total des impôts locaux en fonction de la surface, du nombre de pièces et de la présence d’une piscine, tout en collectant les informations de l’utilisateur (nom et adresse).
@@ -9,12 +28,18 @@ Développer un interface Android permettant de calculer le montant total des imp
 ## 2. Architecture technique
 
 ### 2.1 Stack technique
-| Composant | Version / Technologie |
-|-----------|--------------------|
-| Langage | Java |
-| IDE | Android Studio |
-| SDK Android | API 30+ |
-| Bibliothèques | AndroidX, AppCompat |
+| Élément | Description |
+|----------|-------------|
+| **Langage principal** | Java |
+| **IDE utilisé** | Android Studio |
+| **Version Android minimale (API)** | 24 (Android 7.0 Nougat) |
+| **Système de build** | Gradle |
+| **Structure du layout** | XML (LinearLayout vertical) |
+| **Ressources** | `strings.xml` |
+| **Composants UI** | `TextView`, `EditText`, `CheckBox`, `Button` |
+| **Gestion des événements** | `setOnClickListener()` |
+| **Affichage des messages** | `TextView` pour le résultat |
+| **Émulateur utilisé** | Android Virtual Device (AVD) ou smartphone physique |
 
 ### 2.2 Structure du code
 
@@ -70,5 +95,7 @@ L’application doit présenter un formulaire clair avec tous les champs, la che
 ---
 
 ## 5. Démonstration vidéo
-Lien vers la démonstration vidéo de l’application en fonctionnement :  
-[Voir la vidéo](https://lien_de_ta_video.com)
+
+https://github.com/user-attachments/assets/2baea879-b11a-46be-ba92-35441d8cd90c
+
+
